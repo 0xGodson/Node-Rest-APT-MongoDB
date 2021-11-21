@@ -1,4 +1,4 @@
-# Node-Rest-APT-MongoDB
+# Node-Rest-API-MongoDB
 
 A simple Node Rest API connected to MongoDb.
 
