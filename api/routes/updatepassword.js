@@ -6,12 +6,12 @@ const userModel = require('../../model/users');
 
 router.get('/', (req,res) => {
     res.status(200).json({
-        message: "You can Update Your password By sending Delete Request to this Endpoint",
+        message: "You can Update Your password By sending POST Request to this Endpoint",
         fields: "name, password" 
     });
 })
 
-router.delete('/',async (req,res) => {
+router.post('/',async (req,res) => {
     const namePassword = {
         name: req.body.name,
         password: req.body.password
