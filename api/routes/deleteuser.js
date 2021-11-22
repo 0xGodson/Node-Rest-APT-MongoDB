@@ -7,7 +7,7 @@ const userModel = require('../../model/users');
 router.get('/',(req,res) => {
     res.status(200).json({
         message: "You can Delete a User By Sending Delete to this Endpoint",
-        feilds: "name, password"
+        feilds: "name"
     })
 })
 
